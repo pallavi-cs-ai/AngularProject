@@ -1,74 +1,115 @@
-# Weather Dashboard
+# Angular Movie CRUD Application
 
-An Angular-based weather dashboard that displays city-specific weather information with forecast cards, weather icons, and dynamic city background images.
-
-This project was originally built as a frontend application to practice Angular, API integration, component-based UI design, and responsive dashboard layouts.
+A Movie Management application built with Angular that demonstrates CRUD (Create, Read, Update, Delete) operations using RESTful APIs. The project showcases Angular services, HttpClient, component-based architecture, and frontend-backend integration.
 
 ---
 
 ## Features
 
-- City selection dropdown
-- Current weather display
-- Multi-day forecast view
-- Weather condition icons
-- Dynamic city background images
-- Angular service-based data fetching
-- Bootstrap-based UI styling
+* Display movie list
+* Retrieve movie details by ID
+* Add new movies
+* Update existing movies
+* Delete movies
+* REST API integration using Angular HttpClient
+* Modular Angular architecture
 
 ---
 
-## Technologies Used
+## Tech Stack
 
-- Angular
-- TypeScript
-- Bootstrap
-- HTML
-- CSS
-- Weather API integration
+### Frontend
 
----
+* Angular
+* TypeScript
+* HTML5
+* CSS3
 
-## Screenshot
+### Backend Communication
 
-<p align="center">
-  <img width="1555" height="1012" alt="ChatGPT Image Jun 27, 2026, 01_35_24 AM (1)" src="https://github.com/user-attachments/assets/32ba949a-5b01-4b72-bcbb-3fbffe063282" />
-</p>
+* Angular HttpClient
+* REST APIs
 
 ---
 
-## Project Status
+## Project Structure
 
-This is an older academic/frontend project. The original weather data source was hosted on a university server and may no longer be available. The repository is preserved as a historical frontend project demonstrating Angular-based UI development and weather dashboard design.
+```
+src/
+├── app/
+│   ├── components/
+│   ├── services/
+│   ├── models/
+│   ├── app-routing.module.ts
+│   └── app.module.ts
+```
 
 ---
 
-## How to Run
+## Running the Project
 
-This project was originally generated with Angular CLI.
+Clone the repository
+
+```bash
+git clone https://github.com/<your-username>/angular-movie-crud.git
+```
+
+Install dependencies
 
 ```bash
 npm install
+```
+
+Start the Angular development server
+
+```bash
 ng serve
 ```
 
-Then open:
+Open
 
-```text
+```
 http://localhost:4200
 ```
 
-If the original API endpoint is no longer available, the UI may load without live weather data.
+---
+
+## Backend Configuration
+
+The application currently communicates with a backend running locally:
+
+```
+http://localhost:8080/api/
+```
+
+Example endpoints:
+
+* GET `/movies`
+* GET `/movies/{id}`
+* POST `/movies`
+* PUT `/movies/{id}`
+* DELETE `/movies/{id}`
 
 ---
 
-## Learning Outcomes
+## Concepts Demonstrated
 
-This project demonstrates:
+* Angular Services
+* Dependency Injection
+* HttpClient
+* Observables
+* Component-based Design
+* RESTful API Communication
+* CRUD Operations
 
-- Angular component-based frontend development
-- TypeScript application structure
-- API service integration
-- UI design using Bootstrap
-- Dynamic rendering of weather data
-- Frontend project organization
+---
+
+## Future Improvements
+
+* Authentication
+* Search and filtering
+* Pagination
+* Reactive Forms validation
+* Unit testing
+* Docker deployment
+* Responsive UI enhancements
