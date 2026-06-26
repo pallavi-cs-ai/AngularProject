@@ -1,27 +1,74 @@
-# FrontEndAPP
+# Weather Dashboard
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.1.1.
+An Angular-based weather dashboard that displays city-specific weather information with forecast cards, weather icons, and dynamic city background images.
 
-## Development server
+This project was originally built as a frontend application to practice Angular, API integration, component-based UI design, and responsive dashboard layouts.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+---
 
-## Code scaffolding
+## Features
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- City selection dropdown
+- Current weather display
+- Multi-day forecast view
+- Weather condition icons
+- Dynamic city background images
+- Angular service-based data fetching
+- Bootstrap-based UI styling
 
-## Build
+---
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+## Technologies Used
 
-## Running unit tests
+- Angular
+- TypeScript
+- Bootstrap
+- HTML
+- CSS
+- Weather API integration
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+---
 
-## Running end-to-end tests
+## Screenshot
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+<p align="center">
+  <img width="1555" height="1012" alt="ChatGPT Image Jun 27, 2026, 01_35_24 AM (1)" src="https://github.com/user-attachments/assets/32ba949a-5b01-4b72-bcbb-3fbffe063282" />
+</p>
 
-## Further help
+---
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## Project Status
+
+This is an older academic/frontend project. The original weather data source was hosted on a university server and may no longer be available. The repository is preserved as a historical frontend project demonstrating Angular-based UI development and weather dashboard design.
+
+---
+
+## How to Run
+
+This project was originally generated with Angular CLI.
+
+```bash
+npm install
+ng serve
+```
+
+Then open:
+
+```text
+http://localhost:4200
+```
+
+If the original API endpoint is no longer available, the UI may load without live weather data.
+
+---
+
+## Learning Outcomes
+
+This project demonstrates:
+
+- Angular component-based frontend development
+- TypeScript application structure
+- API service integration
+- UI design using Bootstrap
+- Dynamic rendering of weather data
+- Frontend project organization
